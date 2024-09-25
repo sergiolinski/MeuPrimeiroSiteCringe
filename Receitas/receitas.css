@@ -1,0 +1,30 @@
+.flex-container {
+    display: flex;
+    justify-content:space-between;
+    align-items: left;
+}
+
+.flex-item {
+    background: rgb(255, 0, 0);
+    border: solid;
+    width: 500px;
+    height: 800px;
+    text-align: center;
+}
+
+div h1 {
+    text-align: center;
+}
+
+div p {
+    text-align: justify;
+    margin: 20px;
+}
+
+div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 400px;
+}

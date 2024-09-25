@@ -1,0 +1,54 @@
+body {
+    background:
+    margin: 0px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+header {
+    height: 60px;
+}
+
+nav {
+    color: rgb(255, 0, 0);
+    height: 40px;
+}
+
+
+footer {
+    position: absolute;
+    background:rgb(255, 0, 0);
+    color: white;
+    bottom: 0px;
+    width: 100%;
+    height: 25px;
+}
+
+.logotipo {
+    height:50px;
+    width: 50px;
+}
+
+main {
+    overflow-y: auto;
+    height: calc(100vh - 100px);
+}
+
+.div-main {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+}
+
+.p-main{
+    text-align: center;
+    margin-top: -100px;
+    font-size: xx-large;
+}
+
+.p-footer {
+    text-align: center;
+}
+
+
+
